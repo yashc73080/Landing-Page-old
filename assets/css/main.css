@@ -101,9 +101,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -366,6 +369,92 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.button-container {
+		display: flex;
+		gap: 30px;
+	}
+
+	.wrapper {
+		padding: 2em 0;
+	}
+	
+	.inner {
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.experience-item {
+		margin-bottom: 30px;
+		padding: 15px;
+		border-radius: 10px;
+		transition: background-color 0.3s ease;
+	}
+	.experience-item:hover {
+		background-color: #4D5C97;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	}
+	.experience-date {
+		color: #000000;
+		font-size: 1em;
+		margin-bottom: 5px;
+	}
+	.experience-title {
+		font-weight: bold;
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+	.experience-company {
+		color: #1e2956;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.experience-description {
+		margin-bottom: 10px;
+	}
+	.tech-stack {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.tech-item {
+		background-color: #e6e6ff;
+		color: #1e2956;
+		padding: 5px 10px;
+		border-radius: 15px;
+		font-size: 0.8em;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	.education-item {
+		margin-bottom: 30px;
+		padding: 15px;
+		border-radius: 10px;
+		transition: background-color 0.3s ease;
+	}
+	.education-item:hover {
+		background-color: #45558d;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	}
+	.education-school {
+		font-weight: bold;
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+	.education-date {
+		color: #000000;
+		font-size: 1em;
+		margin-bottom: 5px;
+	}
+	.education-degree {
+		color: #ffffff;
+		font-size: 1.1em;
+		margin-bottom: 10px;
+	}
+	.education-description {
+		margin-bottom: 10px;
 	}
 
 /* Row */
@@ -3464,8 +3553,10 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3574,8 +3665,10 @@ input, select, textarea {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3678,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3695,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -4062,8 +4158,10 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
